@@ -1,12 +1,28 @@
 .king_grid {
 
     border: 5px solid brown;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
     
 
 }
 
-.gridcell1 {
+.gridcell {
 
     border: 5px solid blue;
+    
+}
+
+.gridrow {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
     
 }
