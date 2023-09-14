@@ -1,13 +1,70 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+
+
+.headertitle {
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+
+
+
+}
+
+.maincontent {
+
+    justify-content: center;
+    display:flex;
+    gap: 100px;
+}
+
+
+
+
+
+
+.buttonscontainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 200px;
+}
+
+
+.footercontainer {
+
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
 .king_grid {
 
     border: 5px solid brown;
     display: flex;
     justify-content: space-evenly;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    right: 0%;
-    left: 0%;
+    
     
 
 }
@@ -26,3 +83,4 @@
     
     
 }
+
