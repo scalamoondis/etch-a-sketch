@@ -1,3 +1,5 @@
+
+/* Create grid with rows that contain cells */
 const grid = document.createElement("div");
 grid.classList.add("king_grid");
 for(let i = 0;i < 16;i++) {
@@ -12,13 +14,37 @@ for(let i = 0;i < 16;i++) {
     grid.appendChild(row);
 };
 
-document.body.appendChild(grid);
+const gridcontainer = document.querySelector(".gridcontainer");
+gridcontainer.appendChild(grid);
 
 
+
+
+
+
+
+
+
+
+
+
+/* Function to call when user input is given after button push*/
 function NewGridDetails (numberofcells) {
-    let number = alert("What size grid would you like?")
+    
 
 
 
 
 };
+
+
+/*Function to call when button is pushed*/
+function NewGridButton() {
+
+
+
+};
+
+
+/*Event listeners and item selectors*/
+const thegridcells = document.querySelector(".gridcell");
