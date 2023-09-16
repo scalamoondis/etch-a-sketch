@@ -1,3 +1,11 @@
+
+body {
+
+    background-color: azure;
+}
+
+
+
 .header {
     display: flex;
     justify-content: center;
@@ -15,16 +23,15 @@
 
 }
 
+
 .maincontent {
 
     justify-content: center;
     display:flex;
     gap: 100px;
+    max-width: 1100px;
+    max-height: 1100px;
 }
-
-
-
-
 
 
 .buttonscontainer {
@@ -34,6 +41,12 @@
     justify-content: center;
     gap: 40px;
     width: 200px;
+}
+
+
+button {
+
+    padding: 10px;
 }
 
 
@@ -51,29 +64,25 @@
 }
 
 
+.gridcontainer {
 
-
-
-
-
-
-
-
-.king_grid {
-
-    border: 5px solid brown;
+    /* border: 5px solid brown; */
+    padding: 5px;
     display: flex;
     justify-content: space-evenly;
-    
-    
+    background-color: white;
 
 }
+
 
 .gridcell {
 
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
+    padding: 5px;
+    flex: 2;
     
 }
+
 
 .gridrow {
 
